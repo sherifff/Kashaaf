@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">kashaaf</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_1">سفر وهجرة</string>
+    <string name="action_2">روتين حكومى</string>
+    <string name="action_3">معرفة وتعلم</string>
+    <string name="action_4">فلوس وشغل</string>
+
+    <string-array name="Name">
+        <item>Name 1</item>
+        <item>Name 2</item>
+        <item>Name 3</item>
+        <item>Name 4</item>
+    </string-array>
+    <string-array name="Date">
+        <item>Date 1</item>
+        <item>Date 2</item>
+        <item>Date 3</item>
+        <item>Date 4</item>
+    </string-array>
+    <string-array name="Description">
+        <item>AAAAAAAAAA</item>
+        <item>BBBBBBBBBB</item>
+        <item>CCCCCCCCCC</item>
+        <item>DDDDDDDDDD</item>
+    </string-array>
+    <string name="title_activity_proff">proff</string>
+
+    <string name="hello_world">Hello world!</string>
+
+</resources>

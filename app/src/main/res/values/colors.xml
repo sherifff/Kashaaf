@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E26A6A</color>
+    <color name="colorPrimaryDark">#DCC6E0</color>
+    <color name="colorAccent">#9A12B3</color>
+    <color name="myPrimaryColor">#9A12B3</color>
+    <color name="myPrimaryDarkColor">#9A12B3</color>
+    <color name="myAccentColor">#9A12B3</color>
+    <color name="BackgroundColor">#95A5A6</color>
+    <color name="myDrawerBackground">#F2F2F2</color>
+    <color name="myWindowBackground">#DEDEDE</color>
+    <color name="myTextPrimaryColor">#FFFFFF</color>
+    <color name="myNavigationColor">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#cccccc</color>
+    <color name="grey_700">#646464</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="primary">#E43F3F</color>
+    <color name="black">#000000</color>
+    <color name="gray_background">#B9B8B6</color>
+    <color name="movies_light_pur">#E473E7</color>
+    <color name="movies_pur">#C160C3</color>
+    <color name="movies_darkpur">#7D387C</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="text_tab_selected">#FF000000</color>
+    <color name="text_tab_unselected">#FF555555</color>
+    <color name="selected_gray">#ffdbdbdb</color>
+</resources>

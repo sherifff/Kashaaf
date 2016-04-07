@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myPrimaryDarkColor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/linearLayout"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/kashafmasr"
+                android:id="@+id/imageView2"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="top|right"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:textColorHint="@android:color/tertiary_text_light"
+                android:hint="  Category  "
+                android:layout_marginRight="10dp"
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/editText3"
+                android:layout_weight="0.17"
+                android:textColorHint="@android:color/tertiary_text_light"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="top|right"
+                android:textColor="@color/black"
+                android:layout_toLeftOf="@+id/exp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toStartOf="@+id/exp"
+                android:hint="  Title  "
+                android:background="@drawable/edit_text_style"/>
+
+        </LinearLayout >
+            <LinearLayout  android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:orientation="horizontal"
+                android:layout_weight="0.73">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:id="@+id/editText4"
+                    android:layout_marginRight="10dp"
+
+                    android:layout_toLeftOf="@+id/content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="top|right"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/black"
+                    android:hint="Write your description  "
+                    android:textColorHint="@android:color/tertiary_text_light"
+                    android:background="@drawable/edit_text_style"
+                    />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="284dp"
+                android:layout_height="60dp"
+                android:text="أضف الخبرة"
+                android:id="@+id/button"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/editText4"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
